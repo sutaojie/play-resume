@@ -21,7 +21,7 @@ function writeCode (prefix, code, fn) {
             window.clearInterval(id)
             fn.call()
         }
-    },10)
+    },40)
 }
 // 创建一张白纸
 function createPaper(fn){
@@ -48,7 +48,7 @@ function writeMarkDown(markdown, fn){
             window.clearInterval(id)
             fn.call()
         }
-    },10)
+    },40)
 }
 
 
